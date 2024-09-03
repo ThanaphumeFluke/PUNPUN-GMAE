@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>LEVEL2</title>
+  <link rel="icon" type="image/x-icon" href="../../../pic/Thinkmath.jpg">
+  <link href="style_lv2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="title">LEVEL 2</h1>
+  </header>
+
+  <div class="game">
+    <div class="num1" id="num1"></div>
+    <select class="operator1" id="operator1">
+      <option value="0">+</option>
+      <option value="1">-</option>
+      <option value="2">×</option>
+      <option value="3">÷</option>
+    </select>
+    <div class="num2" id="num2"></div>
+    <select class="operator2" id="operator2">
+      <option value="0">+</option>
+      <option value="1">-</option>
+      <option value="2">×</option>
+      <option value="3">÷</option>
+    </select>
+    <div class="num3" id="num3"></div>
+
+  </div>
+
+
+  <div class="resault_tab">
+    <p class="answer">result is&nbsp;</p>
+    <p class="answer" id="answer"></p>
+  </div>
+
+
+  <div class="subandcheck">
+    <div class="submit_container">
+      <input id="submit" class="submit" onclick="submitted()" type="submit" value="Submit" />
+    </div>
+    <div class="check_container">
+      <p class="check" id="check"></p>
+    </div>
+  </div>
+
+  <div class="timer_container">
+    <div id="timer" class="timer">0 s</div>
+  </div>
+
+  <div class="back_container">
+    <footer class="back">
+      <a class="back_button" href="../../play.html">&lt;back&gt;</a>
+    </footer>
+  </div>
+
+  <footer class="footer">
+    <p class="bar"></p>
+  </footer>
+
+  <script src="script2.js"></script>
+</body>
+
+
+</html>

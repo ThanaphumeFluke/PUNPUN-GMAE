@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+
+
+.header{
+    margin: 1.5rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.title{
+    font-size: 3rem;
+    letter-spacing: 10px;
+    color: black;
+    text-decoration: underline rgb(145,203,63);
+}
+.description{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: white;
+    margin: 0.8rem;
+    margin-bottom: 0;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+
+}
+.pb_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.play_button{
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 1.5rem;
+    border-width: 3.5px;
+    transition: 0.5s;
+
+}
+.play_button:hover{
+    background-color: rgb(170, 239, 74);
+    font-size: 2rem;
+
+}
+.htp_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.htp{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    padding: 5px;
+}
+
+.footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bar{
+    color: white;
+    font-family: monospace;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 443px){
+    .play{
+        margin-top: 5rem;
+    }
+}
