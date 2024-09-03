@@ -6,3 +6,7 @@
 1. HTML
 2. CSS
 3. JavaScript
+
+### New Updates after a year
+- Game is done
+- New 5 level
